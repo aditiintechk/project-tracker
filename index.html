@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="./assests/laptop-code-solid.svg">
+    <link rel="stylesheet" href="./style.css">
+    <title>Project Tracker</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Project Tracker</h1>
+        </header>
+        <main>
+            <div>
+                <div class="project-input">
+                    <input type="text" id="name" class="project-name" placeholder="Project Name" />
+                    <input type="number" id="design" class="project-design" placeholder="Design" />
+                    <input type="number" id="logic" class="project-logic" placeholder="Logic" />
+                </div>
+                <button id="add-project-btn">Add Project</button>
+            </div>
+
+            <div class="headers">
+                <h2 class="project-name-header">Project Name</h2>
+                <h2 class="project-design">Design</h2>
+                <h2 class="project-logic">Logic</h2>
+            </div>
+            <div class="projects">
+                <div class="project-info">
+                    <p class="project-name">Contact Form</p>
+                    <p class="project-design">1.5 Hrs</p>
+                    <p class="project-logic">0.75 Hrs</p>
+                </div>
+            </div>
+
+        </main>
+
+    </div>
+
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

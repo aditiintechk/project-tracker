@@ -1,0 +1,118 @@
+body {
+	font-family: 'Karla', sans-serif;
+	font-weight: 600;
+	background-color: #c1b0cc;
+	color: #112a46;
+}
+
+h1 {
+	margin: 0;
+}
+
+h2,
+p {
+	width: 20%;
+	padding: 0.35em 0.75em;
+	font-size: 0.9rem;
+	margin: 0;
+}
+
+h2 {
+	border-bottom: 1px solid #112a46;
+	font-size: 1.05rem;
+}
+
+p {
+	border: 1px solid #112a46;
+	border-radius: 5px;
+}
+
+header {
+	margin-bottom: 4em;
+}
+
+#add-project-btn {
+	width: 92%;
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: 600;
+	margin-bottom: 2em;
+	padding: 0.75em;
+	border: 2px solid #112a46;
+	border-radius: 5px;
+	background-color: #dfa2b9;
+	cursor: pointer;
+}
+
+#add-project-btn:hover {
+	background-color: #d49cb2;
+}
+
+.container {
+	max-width: 25rem;
+	margin: 2.5em auto;
+	text-align: center;
+}
+
+.headers,
+.project-info,
+.project-input {
+	display: flex;
+	margin: 1em;
+	gap: 1rem;
+}
+
+.headers {
+	margin: 2em 1em;
+}
+
+.project-name-header,
+.project-name {
+	width: 50%;
+	padding: 0.35em 0.75em;
+	font-size: 0.9rem;
+	margin: 0;
+}
+
+.project-design,
+.project-logic {
+	width: 20%;
+	padding: 0.35em 0.75em;
+	font-size: 0.9rem;
+	margin: 0;
+}
+
+.add-project-modal {
+	padding: 1em;
+	margin: 0 auto;
+	background-color: #b4a3c0;
+	display: flex;
+	border: 1px solid #000;
+	border-radius: 5px;
+	flex-direction: column;
+	text-align: left;
+	gap: 1em;
+}
+
+input {
+	background-color: inherit;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 0.5em;
+	display: flex;
+
+	margin-top: 0.5em;
+	font-family: inherit;
+	outline: none;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input::placeholder {
+	color: #222;
+	font-size: 0.875rem;
+}
