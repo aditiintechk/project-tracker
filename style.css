@@ -82,18 +82,6 @@ header {
 	margin: 0;
 }
 
-.add-project-modal {
-	padding: 1em;
-	margin: 0 auto;
-	background-color: #b4a3c0;
-	display: flex;
-	border: 1px solid #000;
-	border-radius: 5px;
-	flex-direction: column;
-	text-align: left;
-	gap: 1em;
-}
-
 input {
 	background-color: inherit;
 	border: 1px solid #000;
