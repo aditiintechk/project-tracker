@@ -36,7 +36,7 @@ header {
 	font-size: inherit;
 	font-family: inherit;
 	font-weight: 600;
-	margin-bottom: 2em;
+	margin-bottom: 0.35em;
 	padding: 0.75em;
 	border: 2px solid #112a46;
 	border-radius: 5px;
@@ -74,6 +74,14 @@ header {
 	margin: 0;
 }
 
+.project-info .project-name {
+	cursor: pointer;
+}
+
+.project-info .project-name:hover {
+	background-color: #af9dbb;
+}
+
 .project-design,
 .project-logic {
 	width: 20%;
@@ -103,4 +111,14 @@ input[type='number']::-webkit-inner-spin-button {
 input::placeholder {
 	color: #222;
 	font-size: 0.875rem;
+}
+
+#error-message {
+	visibility: hidden;
+	border: none;
+	width: 80%;
+	text-align: right;
+	margin-left: 3.5em;
+	margin-bottom: 2.5em;
+	color: rgb(180, 69, 69);
 }
