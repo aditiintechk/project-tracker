@@ -63,6 +63,9 @@ function addProject() {
 		!projectLogicInput.value
 	) {
 		errorMessage.style.visibility = 'visible'
+		setTimeout(() => {
+			errorMessage.style.visibility = 'hidden'
+		}, 1500)
 	} else {
 		projectCounter++
 
